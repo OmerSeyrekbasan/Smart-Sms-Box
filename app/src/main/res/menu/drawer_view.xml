@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inbox"
+            android:title="Inbox"
+            android:checked="true"/>
+        <item
+            android:id="@+id/personal"
+            android:title="Personal" />
+        <item
+            android:id="@+id/commercial"
+            android:title="Commercial" />
+        <item
+            android:id="@+id/spam"
+            android:title="Spam" />
+        <item
+            android:id="@+id/otp"
+            android:title="OTP" />
+        <item
+            android:id="@+id/whiteList"
+            android:title="Whitelist" />
+        <item
+            android:id="@+id/blackList"
+            android:title="Blacklist" />
+        <item
+            android:id="@+id/map_select"
+            android:title="Map" />
+    </group>
+</menu>
